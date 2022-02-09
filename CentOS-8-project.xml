@@ -23,7 +23,7 @@ Removed ppc64le
     <arch>aarch64</arch>
   </repository>
   <repository name="powertools">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/PowerTools/x86_64/os/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/PowerTools/x86_64/os/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -57,7 +57,7 @@ yy+mHmSv
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/PowerTools/aarch64/os/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/PowerTools/aarch64/os/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
@@ -94,7 +94,7 @@ yy+mHmSv
     <arch>aarch64</arch>
   </repository>
   <repository name="extras">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/extras/x86_64/os/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/extras/x86_64/os/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -128,7 +128,7 @@ yy+mHmSv
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/extras/aarch64/os/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/extras/aarch64/os/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
@@ -165,7 +165,7 @@ yy+mHmSv
     <arch>aarch64</arch>
   </repository>
   <repository name="devel">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/Devel/x86_64/os/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/Devel/x86_64/os/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -199,7 +199,7 @@ yy+mHmSv
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/Devel/aarch64/os/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/Devel/aarch64/os/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
@@ -236,7 +236,7 @@ yy+mHmSv
     <arch>aarch64</arch>
   </repository>
   <repository name="cloud">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/cloud/x86_64/openstack-victoria/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/cloud/x86_64/openstack-victoria/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -259,7 +259,7 @@ wKXK7l1c3dc=
 =W6yF
 -----END PGP PUBLIC KEY BLOCK-----</pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/cloud/aarch64/openstack-victoria/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/cloud/aarch64/openstack-victoria/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
@@ -285,7 +285,7 @@ wKXK7l1c3dc=
     <arch>aarch64</arch>
   </repository>
   <repository name="baseos">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/BaseOS/x86_64/os/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/BaseOS/x86_64/os/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -319,7 +319,7 @@ yy+mHmSv
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/BaseOS/aarch64/os/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/BaseOS/aarch64/os/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
@@ -357,7 +357,7 @@ yy+mHmSv
     <arch>aarch64</arch>
   </repository>
   <repository name="appstream">
-    <download arch="x86_64" url="http://mirror.centos.org/centos/8/AppStream/x86_64/os/" repotype="rpmmd">
+    <download arch="x86_64" url="http://vault.centos.org/centos/8/AppStream/x86_64/os/" repotype="rpmmd">
       <archfilter>x86_64</archfilter>
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
@@ -391,7 +391,7 @@ yy+mHmSv
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <download arch="aarch64" url="http://mirror.centos.org/centos/8/AppStream/aarch64/os/" repotype="rpmmd">
+    <download arch="aarch64" url="http://vault.centos.org/centos/8/AppStream/aarch64/os/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
