@@ -19,6 +19,9 @@ osc api -X PUT -T CentOS-7-project-config.spec '/source/CentOS:CentOS-7/_config'
 
 # create list of distributions:
 osc api -T distributions.xml /distributions
+
+# carefully review and possibly change configuration:
+osc api -T configuration.xml /configuration
 ```
 
 Example - verifying satus of Repositories:
@@ -31,6 +34,8 @@ osc api /build/CentOS\:CentOS-8/_result
 My configuration files are based on these exports from 
 
 ```bash
+osc api /configuration > configuration.xml
+
 osc api /distributions > distributions.xml
 
 osc api /source/CentOS:CentOS-7/_meta > CentOS-7-project.xml

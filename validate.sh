@@ -11,11 +11,16 @@ do
 	echo -n "- "
 	xmllint --noout --relaxng /srv/www/obs/docs/api/project.rng $i
 done
-echo
 for i in distributions.xml
 do
 	echo "Validating distributions '$i':"
 	echo -n "- "
 	xmllint --noout --relaxng /srv/www/obs/docs/api/distributions.rng $i
+done
+for i in configuration.xml
+do
+	echo "Validating configuration '$i':"
+	echo -n "- "
+	xmllint --noout --relaxng /srv/www/obs/docs/api/configuration.rng $i
 done
 exit 0
