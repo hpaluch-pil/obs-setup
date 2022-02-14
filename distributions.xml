@@ -1,5 +1,15 @@
 <distributions>
   <!-- from: osc api /distributions -->
+   <distribution vendor="Debian" version="11" id="20133">
+    <name>Debian 11</name>
+    <project>Debian:11</project>
+    <reponame>Debian_11</reponame>
+    <repository>standard</repository>
+    <link>http://www.debian.org/</link>
+    <icon url="/distributions/logos/debian.png" width="8" height="8"/>
+    <icon url="/distributions/logos/debian.png" width="16" height="16"/>
+    <architecture>x86_64</architecture>
+  </distribution>
   <distribution vendor="CentOS" version="CentOS-7" id="20181">
     <name>CentOS CentOS-7</name>
     <project>CentOS:CentOS-7</project>
@@ -14,6 +24,16 @@
     <name>CentOS CentOS-8</name>
     <project>CentOS:CentOS-8</project>
     <reponame>CentOS_8</reponame>
+    <repository>standard</repository>
+    <link>http://www.centos.org/</link>
+    <icon url="/distributions/logos/centos.png" width="8" height="8"/>
+    <icon url="/distributions/logos/centos.png" width="16" height="16"/>
+    <architecture>x86_64</architecture>
+  </distribution>
+  <distribution vendor="CentOS" version="CentOS-8-Stream" id="20175">
+    <name>CentOS CentOS-8-Stream</name>
+    <project>CentOS:CentOS-8:Stream</project>
+    <reponame>CentOS_8_Stream</reponame>
     <repository>standard</repository>
     <link>http://www.centos.org/</link>
     <icon url="/distributions/logos/centos.png" width="8" height="8"/>

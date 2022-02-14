@@ -17,6 +17,15 @@ osc api -X PUT -T CentOS-8-project-config.spec '/source/CentOS:CentOS-8/_config'
 osc api -X PUT -T CentOS-7-project.xml '/source/CentOS:CentOS-7/_meta'
 osc api -X PUT -T CentOS-7-project-config.spec '/source/CentOS:CentOS-7/_config'
 
+# create CentOS8 stream:
+osc api -X PUT -T CentOS8-Stream-project.xml '/source/CentOS:CentOS-8:Stream/_meta'
+osc api -X PUT -T CentOS8-Stream-config.spec '/source/CentOS:CentOS-8:Stream/_config'
+
+# create Debian:11 project:
+osc api -X PUT -T Debian-11-project.xml '/source/Debian:11/_meta'
+osc api -X PUT -T Debian-11-config.spec '/source/Debian:11/_config'
+
+
 # create list of distributions:
 osc api -T distributions.xml /distributions
 
