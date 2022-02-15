@@ -7,12 +7,19 @@
   <person userid="Admin" role="maintainer"/>
   <build>
     <disable/>
+    <enable repository="standard"/>
   </build>
   <publish>
     <disable/>
+    <enable repository="standard"/>
   </publish>
- <repository name="update">
-    <download arch="x86_64" url="http://mirror.centos.org/centos-7/7/updates/x86_64/" repotype="rpmmd">
+  <repository name="standard">
+    <path project="CentOS:CentOS-7" repository="updates"/>
+    <path project="CentOS:CentOS-7" repository="os"/>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="updates">
+	  <download arch="x86_64" url="https://ftp.linux.cz/pub/linux/centos/7/updates/x86_64/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
@@ -45,11 +52,10 @@ uPNL0eRx4S1G4Jn5
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
     </download>
-    <path project="CentOS:CentOS-7" repository="standard"/>
     <arch>x86_64</arch>
   </repository>
-  <repository name="standard">
-  <download arch="x86_64" url="http://mirror.centos.org/centos-7/7/os/x86_64/" repotype="rpmmd">
+  <repository name="os">
+	  <download arch="x86_64" url="https://ftp.linux.cz/pub/linux/centos/7/os/x86_64/" repotype="rpmmd">
       <pubkey>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
