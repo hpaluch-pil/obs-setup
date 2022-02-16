@@ -3,6 +3,10 @@
   <description>CentOS 7 distribution project.
  From: osc api /source/CentOS:CentOS-7/_meta
  Removed: ppc64le arm and most addons
+ NOTE: EPEL prvovides 'zstd' package for obs-service-recompress
+ - it is used to create OBS source tarball from GIT repo
+ NOTE: EPEL is missing repodata/repomd.xml.asc signature - therefore
+ we must omit it !
 </description>
   <person userid="Admin" role="maintainer"/>
   <build>
@@ -14,6 +18,7 @@
     <enable repository="standard"/>
   </publish>
   <repository name="standard">
+    <path project="CentOS:CentOS-7" repository="epel"/>
     <path project="CentOS:CentOS-7" repository="updates"/>
     <path project="CentOS:CentOS-7" repository="os"/>
     <arch>x86_64</arch>
@@ -87,6 +92,11 @@ uPNL0eRx4S1G4Jn5
 =OGYX
 -----END PGP PUBLIC KEY BLOCK-----
 </pubkey>
+    </download>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="epel">
+    <download arch="x86_64" url="https://ftp.linux.cz/pub/linux/fedora/epel/7/x86_64/" repotype="rpmmd">
     </download>
     <arch>x86_64</arch>
   </repository>
