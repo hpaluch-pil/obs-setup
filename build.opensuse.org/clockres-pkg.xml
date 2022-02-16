@@ -1,0 +1,8 @@
+<package name="clockres" project="home:hpaluch-pil">
+  <title>Dump various clock resolutions for clock_gettime(2) calls</title>
+  <description>Provides simple utility 'clockres' that dumps clock resolutions
+for clock_gettime(2) calls. The resolution is gathered using
+clock_getres(2) calls.
+</description>
+  <url>https://github.com/hpaluch-pil/clockres</url>
+</package>

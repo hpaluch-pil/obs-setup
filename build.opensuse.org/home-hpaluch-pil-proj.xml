@@ -1,0 +1,21 @@
+<project name="home:hpaluch-pil">
+  <title/>
+  <description/>
+  <person userid="hpaluch-pil" role="maintainer"/>
+  <repository name="openSUSE_Tumbleweed">
+    <path project="openSUSE:Factory" repository="snapshot"/>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="Debian_11">
+    <path project="Debian:11" repository="standard"/>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="CentOS_7_EPEL">
+    <path project="openSUSE:Tools" repository="CentOS_7"/>
+    <arch>x86_64</arch>
+  </repository>
+  <repository name="15.3">
+    <path project="openSUSE:Leap:15.3" repository="standard"/>
+    <arch>x86_64</arch>
+  </repository>
+</project>

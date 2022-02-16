@@ -1,0 +1,15 @@
+-------------------------------------------------------------------
+Wed Feb 16 09:48:39 UTC 2022 - Henryk Paluch <henryk.paluch@pickering.cz>
+
+- Fixed for CentOS 7 package names 
+
+-------------------------------------------------------------------
+Wed Feb 16 08:49:55 UTC 2022 - Henryk Paluch <henryk.paluch@pickering.cz>
+
+- Use obs-service-tar to build source .tar.gz from GitHub.com repo 
+- Use cmake for builds
+
+-------------------------------------------------------------------
+Tue Feb  8 12:55:04 UTC 2022 - Henryk Paluch <henryk.paluch@pickering.cz>
+
+- Initial OBS release
